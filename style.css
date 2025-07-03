@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #000000;
+}
+h2 {
+    color: #33A8DB;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p {
+    color: #ffffff;
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* BANNER */
+.banner {
+    background: linear-gradient(#000000, #093547, #000000);
+    height: 605px;
+    margin: auto;
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/images/banner.png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    height: 605px;
+    border-bottom: 1px solid #33A8DB;
+}
+.banner-content h1 {
+    color: #33A8DB;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.banner-content button {
+    cursor: pointer;
+    color: #33A8DB;
+    border: 2px solid #33A8DB;
+    font-size: 16px;
+    padding: 10px;
+    background-color: transparent;
+    margin-top: 19px;
+    text-align: center;
+}
+.banner-content a {
+    color: #31ABDD;  
+}
+
+/* course-content */
+#course-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+.modules-list {
+    margin-top: 20px;
+}
+.module {
+    background-color: #252525;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid #33A8DB;
+    height: 30px;
+}
+.module span {
+    color: #33A8DB;
+}
+
+/* transform-world */
+#transform-world {
+    background-image: url(./assets/images/woman-code.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+#transform-world p {
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+/* professional-challenges */
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+#professional-challenges img {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+}
+
+/* footer */
+footer {
+    border-top: 1px solid #33A8DB;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dio-logo {
+    width: 250px;
+    margin-top: 30px;
+}
